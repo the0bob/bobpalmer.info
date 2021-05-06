@@ -15,7 +15,7 @@ export default function About() {
             <div className="col-md-8">
               <div>
                 <p className="lead">
-                  My name is Bob; motivated father, programmer, and lover of some things nerdy.
+                  My name is Bob; motivated father, programmer, and entrepreneur.
                 </p>
                 <p>
                   I received my Bachelor of Science studying Computer Science at <OutLink href="http://park.edu/">Park University</OutLink> in 2017. I am currently working as a Full Stack Developer at <OutLink href="https://www.sellozo.com/">Sellozo</OutLink>. In addition to building solutions from the ground up, I also have experience implementing requested features for legacy systems, fixing bugs, integrating 3rd party products, maintaining proprietary systems, and optimizing code. My work involves a variety of programming languages, data formats, and back end systems. I also have an interest in working with Expert Systems, Simulations, Games, or Artificial Intelligence applications.
