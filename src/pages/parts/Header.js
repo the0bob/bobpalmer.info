@@ -1,14 +1,14 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import { MainOutLinks } from '../BUI';
-import "./styles.css";
+import MainOutLinks from './MainOutLinks';
+// import "./styles.css";
 
 export default function Header(props) {
   const style={
     position: 'relative',
     display: 'table',
-    width: '100%',
-    height: '100%',
+    width: '100vw',
+    height: '100vh',
     backgroundColor: '#333',
     background: 'url(https://s3.amazonaws.com/www.bobpalmer.info/img/header.jpg) no-repeat center center scroll',
     WebkitBackgroundSize: 'cover',

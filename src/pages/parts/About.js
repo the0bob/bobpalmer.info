@@ -1,9 +1,7 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import OutLink from './OutLink';
-import CtaButton from './CtaButton';
-
-import "./styles.css";
+// import CtaButton from './CtaButton';
 
 export default function About() {
   return (
@@ -24,21 +22,21 @@ export default function About() {
                 </p>
                 <div className="clearfix"></div>
               </div>
-              <div className="text-center">
-              <div className="row">
-                <div className="col-md-6">
-                  <CtaButton href="#portfolio">
-                    See Portfolio
-                    <span className="m-1 fa fa-angle-down"></span></CtaButton>
+              {/* <div className="text-center">
+                <div className="row">
+                  <div className="col-md-6">
+                    <CtaButton href="#portfolio">
+                      See Portfolio
+                      <span className="m-1 fa fa-angle-down"></span></CtaButton>
+                  </div>
+                  <div className="col-md-6">
+                    <CtaButton href="#contact">
+                      Contact Me
+                      <span className="m-1 fa fa-angle-down"></span>
+                    </CtaButton>
+                  </div>
                 </div>
-                <div className="col-md-6">
-                  <CtaButton href="#contact">
-                    Contact Me
-                    <span className="m-1 fa fa-angle-down"></span>
-                  </CtaButton>
-                </div>
-              </div>
-            </div>
+              </div> */}
             </div>
           </div>
         </div>

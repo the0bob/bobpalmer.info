@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("H:\\Playitec\\playitec.games\\node_modules\\@reach\\router\\index.js"), require("H:\\Playitec\\playitec.games\\node_modules\\common-tags\\lib\\index.js"), require("fs"), require("H:\\Playitec\\playitec.games\\node_modules\\lodash\\merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("H:\\Personal\\bobpalmer.info\\node_modules\\@reach\\router\\index.js"), require("H:\\Personal\\bobpalmer.info\\node_modules\\common-tags\\lib\\index.js"), require("fs"), require("H:\\Personal\\bobpalmer.info\\node_modules\\lodash\\merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["H:\\Playitec\\playitec.games\\node_modules\\@reach\\router\\index.js", "H:\\Playitec\\playitec.games\\node_modules\\common-tags\\lib\\index.js", "fs", "H:\\Playitec\\playitec.games\\node_modules\\lodash\\merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["H:\\Personal\\bobpalmer.info\\node_modules\\@reach\\router\\index.js", "H:\\Personal\\bobpalmer.info\\node_modules\\common-tags\\lib\\index.js", "fs", "H:\\Personal\\bobpalmer.info\\node_modules\\lodash\\merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("H:\\Playitec\\playitec.games\\node_modules\\@reach\\router\\index.js"), require("H:\\Playitec\\playitec.games\\node_modules\\common-tags\\lib\\index.js"), require("fs"), require("H:\\Playitec\\playitec.games\\node_modules\\lodash\\merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("H:\\Personal\\bobpalmer.info\\node_modules\\@reach\\router\\index.js"), require("H:\\Personal\\bobpalmer.info\\node_modules\\common-tags\\lib\\index.js"), require("fs"), require("H:\\Personal\\bobpalmer.info\\node_modules\\lodash\\merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["H:\\Playitec\\playitec.games\\node_modules\\@reach\\router\\index.js"], root["H:\\Playitec\\playitec.games\\node_modules\\common-tags\\lib\\index.js"], root["fs"], root["H:\\Playitec\\playitec.games\\node_modules\\lodash\\merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["H:\\Personal\\bobpalmer.info\\node_modules\\@reach\\router\\index.js"], root["H:\\Personal\\bobpalmer.info\\node_modules\\common-tags\\lib\\index.js"], root["fs"], root["H:\\Personal\\bobpalmer.info\\node_modules\\lodash\\merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_common_tags__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -122,19 +122,19 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "playitec-games",
+    "name": "bobpalmer-info",
     "short_name": "playitec",
     "start_url": "/",
     "background_color": "#663399",
     "theme_color": "#663399",
     "display": "minimal-ui",
-    "icon": "src/images/icon/playitec-icon.png",
+    "icon": "src/images/icon/bobpalmer-icon.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "53fa602a719fff99bafd42b08341bb48"
+    "cacheDigest": null
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -33295,7 +33295,7 @@ if (false) {} else {
 
 /***/ "@reach/router":
 /*!***************************************************************************************!*\
-  !*** external "H:\\Playitec\\playitec.games\\node_modules\\@reach\\router\\index.js" ***!
+  !*** external "H:\\Personal\\bobpalmer.info\\node_modules\\@reach\\router\\index.js" ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -33306,7 +33306,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__reach_router__;
 
 /***/ "common-tags":
 /*!*****************************************************************************************!*\
-  !*** external "H:\\Playitec\\playitec.games\\node_modules\\common-tags\\lib\\index.js" ***!
+  !*** external "H:\\Personal\\bobpalmer.info\\node_modules\\common-tags\\lib\\index.js" ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -33328,7 +33328,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 
 /***/ "lodash/merge":
 /*!*******************************************************************************!*\
-  !*** external "H:\\Playitec\\playitec.games\\node_modules\\lodash\\merge.js" ***!
+  !*** external "H:\\Personal\\bobpalmer.info\\node_modules\\lodash\\merge.js" ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {

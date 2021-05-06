@@ -1,5 +1,7 @@
 import React from 'react';
 import OutLink from './OutLink';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../../components/font-awesome';
 
 export default function MainOutLinks({color}) {
   let style = { color };
@@ -7,22 +9,23 @@ export default function MainOutLinks({color}) {
     <ul className="list-inline">
       <li className="list-inline-item">
         <OutLink href="https://www.linkedin.com/in/im-bob/">
-          <i className="fab fa-linkedin fa-fw fa-3x" style={style}></i>
+          <FontAwesomeIcon icon={"linkedin"} />
         </OutLink>
       </li>
       <li className="list-inline-item">
         <OutLink href="https://github.com/the0bob">
-          <i className="fab fa-github fa-fw fa-3x" style={style}></i>
+          <FontAwesomeIcon icon={"github"} />
         </OutLink>
       </li>
       <li className="list-inline-item">
         <OutLink href="https://codepen.io/the0bob/">
-          <i className="fab fa-codepen fa-fw fa-3x" style={style}></i>
+          <FontAwesomeIcon icon={"codepen"} />
         </OutLink>
       </li>
       <li className="list-inline-item">
         <OutLink href="https://www.hackerrank.com/the0bob/">
-          <i className="fab fa-hackerrank fa-fw fa-3x" style={style}></i>
+          <FontAwesomeIcon icon={"hackerrank"} />
+          {/* <i className="fab fa-hackerrank fa-fw fa-3x" style={style}></i> */}
         </OutLink>
       </li>
     </ul>
