@@ -71,16 +71,14 @@ padding: 0;
   color: #cdc;
 }
 
-.portfolio .carousel.carousel-slider {
-  overflow: visible;
-  min-height: 320px;
-}
 .portfolio .carousel .slider-wrapper {    
-  overflow: visible;
-  min-height: 320px;
+  overflow-y: visible;
+  min-height: 380px;
+  padding-bottom: 64px;
 }
+
 .portfolio .carousel .control-dots {
-  bottom: -48px;
+  bottom: 0;
 }
 
 .portfolio-items:after {
@@ -99,6 +97,7 @@ padding: 0;
     margin: auto;
     min-width: 320px;
     max-width: 640px;
+    margin: 0 32px;
     background-color: #cdc;
     overflow: hidden;
     text-align: left;
