@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { Carousel } from 'react-responsive-carousel';
-import OutLink from './Outlink';
+import OutLink from './OutLink';
 import data from '../../data.json';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
