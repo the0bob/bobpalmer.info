@@ -8,19 +8,21 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function PortfolioItem({img, title, copy, link, cta}) {
   const background = `url(${img}) no-repeat top center`;
   return (
-    <div className="portfolio-item">
-      <OutLink href={link}>
-        <div className="img-portfolio" style={{
-          background: background, backgroundSize: 'cover',  width: '100%',  height: '240px',
-        }}>
-          <h4>{title}</h4>
-        </div>
-      </OutLink>
-      <div className="copy-portfolio" dangerouslySetInnerHTML={{__html:copy}} />
-      <div className="cta-portfolio">
+    <div className="portfolio-item-wrapper">
+      <div className="portfolio-item">
         <OutLink href={link}>
-          <button className="btn btn-dark">{cta || "View"}</button>
+          <div className="img-portfolio" style={{
+            background: background, backgroundSize: 'cover',  width: '100%',  height: '240px',
+          }}>
+            <h4>{title}</h4>
+          </div>
         </OutLink>
+        <div className="copy-portfolio" dangerouslySetInnerHTML={{__html:copy}} />
+        <div className="cta-portfolio">
+          <OutLink href={link}>
+            <button className="btn btn-dark">{cta || "View"}</button>
+          </OutLink>
+        </div>
       </div>
     </div>
   );

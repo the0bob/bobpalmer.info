@@ -85,25 +85,25 @@ padding: 0;
   pointer-events: none;
   content: '';
   position: absolute;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
   background-image:
     linear-gradient(to right, #fff, rgba(255,255,255,0) calc(33% - 120px)),
     linear-gradient(to left , #fff, rgba(255,255,255,0) calc(33% - 120px));
 }
 
+.portfolio-item-wrapper {
+  display: block;
+  margin: auto;
+  padding: 0 16px;
+}
+
 .portfolio-item {
     display: block;
     margin: auto;
-    min-width: 320px;
+    min-width: 100px;
     max-width: 640px;
-    margin: 0 32px;
     background-color: #cdc;
     overflow: hidden;
     text-align: left;
-    /*-webkitborder-radius: 32px;
-    -moz-border-radius: 32px;
-    border-radius: 32px;*/
     -webkit-box-shadow: 16px 16px 8px 0px rgba(0,0,0,0.7);
     -moz-box-shadow: 16px 16px 8px 0px rgba(0,0,0,0.7);
     box-shadow: 16px 16px 8px 0px rgba(0,0,0,0.7);
