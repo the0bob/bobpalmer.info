@@ -1,7 +1,6 @@
 {
    "skills":[
       {
-         "faIcon":"far fa-file-code",
          "name":"Languages",
          "items":[
             "Node.js",
@@ -11,7 +10,6 @@
          ]
       },
       {
-         "faIcon":"fab fa-stack-overflow",
          "name":"Stacks",
          "items":[
             "MERN",
@@ -21,17 +19,14 @@
          ]
       },
       {
-         "faIcon":"fas fa-code-branch",
          "name":"Workflow",
          "items":[
-            "Build Processes",
+            "Git | Version Control",
             "Pipelines",
-            "Error Reporting",
-            "Git | Version Control"
+            "Error Reporting"
          ]
       },
       {
-         "faIcon":"fas fa-database",
          "name":"Database",
          "items":[
             "Postgres",
@@ -49,13 +44,6 @@
         "cta": "Download"
       },
       {
-        "title": "Mushrooms & Mysteries",
-        "img": "https://s3.amazonaws.com/www.bobpalmer.info/img/mushrooms-and-mysteries.jpg",
-        "copy": "<p>My current RPG Maker Project. I use this primarily for testing plugins. No plot, just mushrooms.</p>",
-        "link":"https://mushrooms-and-mysteries.bobpalmer.info/",
-        "cta": "Play"
-      },
-      {
         "title": "GitHub",
         "img": "https://s3.amazonaws.com/www.bobpalmer.info/img/github.jpg",
         "copy": "<p>Source code for my most recent projects can be found here, including this website (React), the Kansas City Food Not Bombs website (Angular), a Terraria game server (Docker), and a few other small projects.</p>",
@@ -71,46 +59,14 @@
       }
     ],
     "portfolioSettings": {
-      "dots": true,
-      "infinite": true,
-      "speed": 500,
-      "autoplay": true,
-      "autoplaySpeed": 3000,
+      "width": "100%",
+      "autoPlay": true,
+      "infiniteLoop": true,
       "centerMode": true,
-      "centerPadding": "320px",
-      "slidesToShow": 1,
-      "slidesToScroll": 1,
-      "arrows": true,
-      "className": "portfolio-items",
-      "responsive": [
-        {
-          "breakpoint": 1400,
-          "settings": {
-            "centerPadding": "240px",
-            "slidesToShow": 1
-          }
-        },
-        {
-          "breakpoint": 1024,
-          "settings": {
-            "centerPadding": "30px",
-            "slidesToShow": 1
-          }
-        },
-        {
-          "breakpoint": 900,
-          "settings": {
-            "centerPadding": "15px",
-            "slidesToShow": 1
-          }
-        },
-        {
-          "breakpoint": 640,
-          "settings": {
-            "centerPadding": "0",
-            "slidesToShow": 1
-          }
-        }
-      ]
+      "centerSlidePercentage": 66,
+      "interval": 5000,
+      "transitionTime": 1000,
+      "showThumbs": false,
+      "showStatus": false
     } 
 }

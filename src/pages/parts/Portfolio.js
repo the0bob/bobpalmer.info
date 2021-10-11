@@ -1,13 +1,14 @@
 import React from 'react';
-import Slider from "react-slick";
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { Carousel } from 'react-responsive-carousel';
 import OutLink from './Outlink';
 import data from '../../data.json';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-function PortfolioItem({key, img, title, copy, link, cta}) {
+function PortfolioItem({img, title, copy, link, cta}) {
   const background = `url(${img}) no-repeat top center`;
   return (
-    <div key={key} className="portfolio-item">
+    <div className="portfolio-item">
       <OutLink href={link}>
         <div className="img-portfolio" style={{
           background: background, backgroundSize: 'cover',  width: '100%',  height: '240px',
@@ -35,14 +36,14 @@ export default function() {
             <div className="col-lg-12 mx-auto text-center">
               <h2 key={"heading"}>Portfolio</h2>
               <hr key={"hr"} className="small" />
-              <Slider key={"slider"} {...portfolioSettings}>
-                {portfolio.map((portfolioItem, index) => (
-                  <PortfolioItem key={index} {...portfolioItem}/>
-                ))}
-              </Slider>
             </div>
           </div>
         </div>
+        <Carousel key={"carousel"} {...portfolioSettings}>
+            {portfolio.map((portfolioItem, index) => (
+              <PortfolioItem key={index} {...portfolioItem}/>
+            ))}
+        </Carousel>
       </section>
     </ScrollableAnchor>
   );

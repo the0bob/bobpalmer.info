@@ -1,17 +1,25 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCircle, faFileCode, faDatabase, faCodeBranch} from '@fortawesome/free-solid-svg-icons';
+import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { skills } from '../../data.json';
 
+const iconMap = {
+  "Languages": faFileCode,
+  "Stacks": faStackOverflow,
+  "Workflow": faCodeBranch,
+  "Database": faDatabase,
+};
+
 function SkillGroup({faIcon, name, items}) {
-  const favIconClasses = `${faIcon} fa-stack-1x`;
+  // https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react
   return (
     <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
       <div className="skill">
-        <span className="fa-stack fa-4x">
-          <i className="fa fa-circle fa-stack-2x"></i>
-          <i className={favIconClasses} style={{
-            color: '#007bff',
-          }}></i>
+        <span className="fa-stack fa-layers fa-4x">
+          <FontAwesomeIcon icon={faCircle} size={'2x'}/>
+          <FontAwesomeIcon icon={iconMap[name]} color={'#007bff'}/>
         </span>
         <h4>
           <strong>{name}</strong>

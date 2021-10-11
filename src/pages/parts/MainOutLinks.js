@@ -3,8 +3,7 @@ import OutLink from './OutLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../components/font-awesome';
 
-export default function MainOutLinks({color}) {
-  let style = { color };
+export default function MainOutLinks() {
   return(
     <ul className="list-inline">
       <li className="list-inline-item pr-2">

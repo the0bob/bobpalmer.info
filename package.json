@@ -5,10 +5,11 @@
   "version": "0.1.0",
   "author": "Bob Palmer <bobpalmer.info@gmail.com>",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "axios": "^0.18.0",
     "bootstrap": "^4.6.0",
     "gatsby": "^2.23.12",
@@ -27,9 +28,9 @@
     "react-burger-menu": "^2.5.2",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-responsive-carousel": "^3.2.21",
     "react-scripts": "1.1.5",
-    "react-scrollable-anchor": "^0.6.1",
-    "react-slick": "^0.23.1"
+    "react-scrollable-anchor": "^0.6.1"
   },
   "devDependencies": {
     "eslint": "^4.19.1",

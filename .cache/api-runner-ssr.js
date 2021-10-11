@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('H:/Personal/bobpalmer.info/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Volumes/Macintosh HD - Data/PersonalProjects/bobpalmer.info/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('H:/Personal/bobpalmer.info/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('/Volumes/Macintosh HD - Data/PersonalProjects/bobpalmer.info/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('H:/Personal/bobpalmer.info/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
+      plugin: require('/Volumes/Macintosh HD - Data/PersonalProjects/bobpalmer.info/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('H:/Personal/bobpalmer.info/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Volumes/Macintosh HD - Data/PersonalProjects/bobpalmer.info/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"bobpalmer-info","short_name":"playitec","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/icon/bobpalmer-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":null},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
