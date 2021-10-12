@@ -75,7 +75,7 @@ export default class Contact extends React.Component {
         <hr className="small" />
         <form className="mx-auto text-center" onSubmit={this.submitForm}>
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-12 col-lg-6 col-xl-5">
               <p>
                 <input type="text" name="name" placeholder="Name" required/>
               </p><p>
@@ -84,11 +84,11 @@ export default class Contact extends React.Component {
                 <input type="phone" name="phone" placeholder="Phone (optional)"/>
               </p>
             </div>
-            <div className="col-md-7">
-              <textarea name="comments" cols="40" rows="5" placeholder="What's on your mind?" required></textarea>
+            <div className="col-12 col-lg-6 col-xl-7">
+              <textarea name="comments" cols="30" rows="5" placeholder="What's on your mind?" required></textarea>
             </div>
             <div className="clearfix"></div>
-            <div className="col-md-12 text-right">
+            <div className="col-10 col-lg-12 text-right mt-2">
               <input type="submit" value="Submit" disabled={this.formDisabled} />
             </div>
           </div>

@@ -71,23 +71,31 @@ padding: 0;
   color: #cdc;
 }
 
+.portfolio .carousel.carousel-slider {
+  margin: auto;
+}
+
+.portfolio .carousel.carousel-slider:before {
+  pointer-events: none;
+  content: '';
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(to right, #343a40, rgba(30,30,30,0) max(25%, 32px)),
+    linear-gradient(to left , #343a40, rgba(30,30,30,0) max(25%, 32px));
+}
+
 .portfolio .carousel .slider-wrapper {    
   overflow-y: visible;
   min-height: 380px;
   padding-bottom: 64px;
+  margin: auto;
 }
 
 .portfolio .carousel .control-dots {
   bottom: 0;
-}
-
-.portfolio-items:after {
-  pointer-events: none;
-  content: '';
-  position: absolute;
-  background-image:
-    linear-gradient(to right, #fff, rgba(255,255,255,0) calc(33% - 120px)),
-    linear-gradient(to left , #fff, rgba(255,255,255,0) calc(33% - 120px));
 }
 
 .portfolio-item-wrapper {

@@ -59,7 +59,7 @@
       }
     ],
     "portfolioSettings": {
-      "width": "100%",
+      "width": "min(100vw, 1200px)",
       "autoPlay": true,
       "infiniteLoop": true,
       "centerMode": true,
