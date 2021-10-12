@@ -15,7 +15,7 @@ export default function About() {
             <div className="col-md-8">
               <div>
                 <p className="lead">
-                  My name is Bob; I make the bleep bloops make the ching chings.
+                  My name is Bob; I make stuff that does things.
                 </p>
                 <p>
                   I have six years under my belt developing web-based software professionally, formal education including a Bachelor's in Computer Science from <OutLink href="http://park.edu/">Park University</OutLink>, and have been a programming / DIY / PC enthusiast my whole life. I've built web-based software and apps from the ground up, updated existing systems and websites, written code in a dozen languages, and have integrated with more cloud services and APIs than I care to list here. Most of my experience is in a full stack role, working with various front end frameworks (React, Vue, Angular), back end languages (Java, C#, Node, PHP), database systems (Postgres, Mongo, MySql, MSSQL), and AWS (S3, Route 53, EC2, Redshift, EFS, etc). After tinkering with game concepts most of my life, I've recently been learning Unity, brushing up on my C#, and educating myself on every step of the game development process. I have a few skills in graphic design, photo editing, technical writing, team leadership, and basic business accounting as well.
