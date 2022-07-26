@@ -64,7 +64,7 @@
       "infiniteLoop": true,
       "centerMode": true,
       "centerSlidePercentage": 66,
-      "interval": 5000,
+      "interval": 2500,
       "transitionTime": 1000,
       "showThumbs": false,
       "showStatus": false
